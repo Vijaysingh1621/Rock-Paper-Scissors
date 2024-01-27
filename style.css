@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    background-color: #F8FFD2;
+    position: relative;
+    
+}
+.box{
+    position: absolute;
+    left: 400px;
+    top: -50px;
+    
+
+}
+.text-1{
+    font-size: 50px;
+    font-family: poppins,Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 100px;
+    position: relative;
+
+}
+.logo-emoji{
+    background-color: transparent;
+    height:120px;
+    margin-top: 0px;
+    padding-top: px;
+    position:absolute;
+    right: 20px;
+}
+.gesture-icons{
+    height: 120px;
+    background-color: #F8FFD2;
+    
+    border:none;
+}
+.gesture-class{
+    height: 200px;
+    width: 200px;
+    border: none;
+    display: grid;
+    display: inline;
+    padding-right: 90px;
+    border: 4px solid rgb(19, 17, 17);
+    padding: 40px;
+    border-radius: 100px;
+    margin-right: 30px;
+    cursor: pointer;
+
+    
+}
+.gesture-class:hover{
+    border: 5px solid black;
+    transform: translatey(-10px);
+}
+.gesture-icon-1{
+    height: 120;
+    margin-right: 30px;
+    max-width:100%;
+    
+    
+}
+.js-result,.js-moves{
+    font-family: poppins,Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.move-gesture{
+    height: 80px;
+    margin-left:40px
+    
+    
+    
+}
+.js-score{
+    font-family: poppins,Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size:30px ;
+    margin-top: 30px;
+}
+.reset-button{
+    height: 70px;
+    width: 200px;
+    background-color: transparent;
+    color: black;
+    font-family: poppins,Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.reset-button:hover{
+    border: 4px solid black;
+    
+}
